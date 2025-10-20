@@ -13,3 +13,18 @@ document.getElementById('scrollToProject').addEventListener('click', function (e
     const projectSection = document.getElementById('project');
     projectSection.scrollIntoView({ behavior: 'smooth' }); // Smooth scroll to the projects section
 });
+
+function typetext(elementId,text,delay){
+    const targetElement = document.getElementById(elementId);
+    let index = 0;
+    // Function to type each character
+    function typeCharacter() {
+        if (index < text.length) {
+            targetElement.innerHTML += text[index];
+            index++;
+            setTimeout(typeCharacter, delay);
+        }
+    }   
+    typeCharacter(); // Start typing
+}
+typetext("greet",`HI,I'm madhuka Methsara.`,100);
