@@ -241,11 +241,13 @@ body {
 }
 .about-content {
     max-width: 600px;
+    
 }
 .about-content h3 {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.2;
+
 }
 .about-content h4{
     font-family: 'poppins', sans-serif;
@@ -353,3 +355,4 @@ transition: 3s;
     font-size: 14px;
     margin:auto;
 }
+

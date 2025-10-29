@@ -27,4 +27,5 @@ function typetext(elementId,text,delay){
     }   
     typeCharacter(); // Start typing
 }
-typetext("greet",`HI,I'm madhuka Methsara.`,100);
+
+typetext("greet",`HI,I'm Madhuka Methsara.`,100);
